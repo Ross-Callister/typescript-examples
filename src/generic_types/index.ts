@@ -59,7 +59,7 @@ class TrafficLight implements Entity {
 
 const allEntities: Entity[] = [];
 
-class Player {
+class Player implements Entity {
     type: EntityType = "player";
     location: Location;
 
